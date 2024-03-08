@@ -13,6 +13,10 @@ body {
 ========================================
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-bar {
   position: fixed;
   top: 0;
@@ -29,7 +33,12 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 80px;
+  padding: 25px;
+}
+
+nav ul li:hover {
+  font-weight: bold;
+  background-color: #feae65;
 }
 
 nav ul li:last-child {
@@ -71,6 +80,19 @@ header {
 .header-text {
   width: 30%;
   margin-top: 20%;
+  opacity: 0;
+  animation: slideDown 1s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .header-text p {
@@ -156,6 +178,7 @@ h1 {
 .program-icons img {
   max-width: 70px;
   margin-right: 100px;
+  fill: #003844;
 }
 
 .program-icons img:last-child {
