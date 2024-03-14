@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michely Paredes - Portfolio</title>
+    <title>Michely Paredes - Web Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -23,28 +23,37 @@
             alt="Image of a drawing depicting a girl working on her computer with tabs on the background"
           />
         </div>
+        <div class="header-text-container">
         <div class="header-text">
-          <p class="text-header1">Hi! I'm</p>
-          <div class="text-header2">
-            <p>Michely</p>
-            <p>Paredes</p>
-          </div>
-          <p class="text-header3">Junior Web Developer</p>
+          <p>Hi! I'm</p>
+          <h1>
+            Michely <br />
+            Paredes
+          </h1>
+          <h3 class="text-header3">Junior Web Developer</h3>
         </div>
       </div>
     </header>
-
     <main>
       <section class="about-section" id="about-me">
-        <h1>About</h1>
         <div class="about-content">
           <div class="about-image-container">
+          <div class="image-circle-styling">
             <img
               src="./img/MParedes_FotoPerfil.jpg"
               alt="profile picture of Michely Paredes"
             />
+            <span class="yellow-circle"></span>
           </div>
+          <div class="cv-btn">
+            <button>
+              <img src="./img/download-icon.svg" alt="SVG Image">
+            CV
+            </button>
+          </div>
+        </div>
           <div class="about-text-container">
+            <h2 class="about-title">About</h2>
             <p>
               I’m a junior web developer with a strong knowledge in HTML, CSS,
               and JavaScript. I'm passionate about creating visually stunning
@@ -56,20 +65,27 @@
             </p>
           </div>
         </div>
+        <div class="program-icons-container">
         <div class="program-icons">
           <img src="./img/html-icon.svg" alt="HTML icon" />
           <img src="./img/css-icon.svg" alt="CSS icon" />
           <img src="./img/js-icon.svg" alt="Javascript icon" />
           <img src="./img/figma-icon.svg" alt="Figma icon" />
-          <img src="./img/vite-icon.svg" alt="Vite icon" />
+          <img src="./img/svelte-icon.svg" alt="Svelte icon" />
           <img src="./img/react-icon.svg" alt="React icon" />
+        </div>
         </div>
       </section>
       <section class="projects-section" id="projects">
-        <h1>Projects</h1>
+        <h2 class="projects-title">Projects</h2>
+        <div class="projectCard">
+          <img src="" alt=""></img>
+          <p class="project-title">lalalala</p>
+          <p class="project-description">lololol</p>
+        </div>
       </section>
       <section class="contact-section" id="contact">
-        <h1>Contact</h1>
+        <h2 class="contact-title">Contact</h2>
       </section>
     </main>
     <footer>
@@ -80,3 +96,5 @@
     </footer>
   </body>
 </html>
+
+<script src="./src/script.js"></script>
