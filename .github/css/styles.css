@@ -267,20 +267,43 @@ header {
 
 /*#region Projects*/
 
-.projects-title {
-  font-size: 6rem;
-  font-weight: 100;
-  color: #003844;
-  text-align: left;
-  margin-left: 10%;
-}
-
 .projects-section {
   width: 100%;
   margin: 10% 0;
 }
 
+.projects-title {
+  font-size: 6rem;
+  font-weight: 100;
+  color: #003844;
+  text-align: left;
+  margin-left: 6%;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.project-card {
+  width: 550px;
+  margin-bottom: 40px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 10px rgba(162, 163, 156, 0.48);
+}
+
+.project-card img {
+  max-width: 100%;
+  border: 2px solid #ccc;
+}
+
 /*#endregion*/
+
+/*#region Contact*/
 
 .contact-title {
   font-size: 6rem;
@@ -288,6 +311,8 @@ header {
   color: #003844;
   text-align: center;
 }
+
+/*#endregion*/
 
 /*#region Footer*/
 
