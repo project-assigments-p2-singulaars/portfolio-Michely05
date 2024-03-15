@@ -306,7 +306,7 @@ header {
 
 .project-title {
   color: #003844;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .project-card:hover img {
@@ -322,6 +322,13 @@ header {
   font-weight: 100;
   color: #003844;
   text-align: center;
+}
+
+.contact-form-container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /*#endregion*/

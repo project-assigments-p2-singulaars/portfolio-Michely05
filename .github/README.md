@@ -37,3 +37,4 @@ Clone the project locally using VSC from [here](https://github.com/project-assig
 
 1. Responsive: adapt content to smaller screens using Media Queries.
 2. Finish Contact section: Form styling and linking to corporative email.
+3. Download CV document option.
